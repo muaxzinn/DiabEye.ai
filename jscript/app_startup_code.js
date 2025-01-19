@@ -33,8 +33,8 @@ function predictOnLoad() {
 let model;
 (async function () {
 	
-	model = await tf.loadModel('http://127.0.0.1:5500/model_dr/model.json');
-	$("#selected-image").attr("src", "http://127.0.0.1:5500/assets/fundus_1.jpg");
+	model = await tf.loadModel('https://muaxzinn.github.io/DiabEye.ai/model_dr/model.json');
+	$("#selected-image").attr("src", "https://muaxzinn.github.io/DiabEye.ai/assets/fundus_1.jpg");
 	
 	// Hide the model loading spinner
 	// This line of html gets hidden:
